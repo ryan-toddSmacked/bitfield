@@ -22,7 +22,7 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 /************************************************
  * MACRO:
- * 
+ *
  * BITS(var, rval_cptr): Expands to a while loop
  *  that takes the rvalue character string and
  *  assigns the variable var to that value as an
@@ -36,11 +36,11 @@ typedef uint64_t bit64_t;   /* 64-bits */
         __TEMP_HOLDER_2345215_geruhv++;\
     }\
 }
-    
+
 
 /************************************************
  * MACRO:
- * 
+ *
  * SETBIT(bf, i): Expands to an expression that
  *  logical ORs a 1 into the specified bit
  *  position.
@@ -50,7 +50,7 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 /************************************************
  * MACRO:
- * 
+ *
  * NULLBIT(bf, i): Expands to an expression that
  *  logical ANDs a 0 into the specified bit
  *  position.
@@ -60,7 +60,7 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 /************************************************
  * MACRO:
- * 
+ *
  * ISSET(bf, i): Expands to a logical expression
  *  that returns true if the bit is set at the
  *  ith position in the bitfield.
@@ -70,7 +70,7 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 /************************************************
  * MACRO:
- * 
+ *
  * ISNULL(bf, i): Expands to a logical expression
  *  that returns true if the bit is not set at the
  *  ith position in the bitfield.
@@ -80,8 +80,8 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 /************************************************
  * MACRO:
- * 
- * ONES(bf, i): Expands to an assignable mess of 
+ *
+ * ONES(bf, i): Expands to an assignable mess of
  *  ternary operators that will count the number
  *  of bits that are 1 in the bitfield.
  ***********************************************/
@@ -94,8 +94,8 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 /************************************************
  * MACRO:
- * 
- * ZEROS(bf, i): Expands to an assignable mess of 
+ *
+ * ZEROS(bf, i): Expands to an assignable mess of
  *  ternary operators that will count the number
  *  of bits that are 0 in the bitfield.
  ***********************************************/
@@ -108,3 +108,4 @@ typedef uint64_t bit64_t;   /* 64-bits */
 
 
 #endif
+
